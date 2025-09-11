@@ -2478,6 +2478,18 @@
 #define DM_COMMAND_CMDTYPE_LENGTH           8ULL
 #define DM_COMMAND_CMDTYPE                  0xff000000ULL
 /*
+ * Command: Access Register Command
+ */
+#define DM_COMMAND_CMDTYPE_ACCESS_REGISTER  0ULL
+/*
+ * Command: Quick Access
+ */
+#define DM_COMMAND_CMDTYPE_QUICK_ACCESS     1ULL
+/*
+ * Command: Access Memory Command
+ */
+#define DM_COMMAND_CMDTYPE_ACCESS_MEMORY    2ULL
+/*
  * This field is interpreted in a command-specific manner,
  * described for each abstract command.
  */
